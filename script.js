@@ -47,7 +47,7 @@ console.log(job);
 lastName = 'Sem'; //creates in glogal scope, don't do that
 console.log(lastName);*/
 
-//14.Basic Operators
+/*//14.Basic Operators
 
 //Math operators
 const now = 2022;
@@ -77,4 +77,19 @@ console.log(ageJonas >= 33);
 
 const isFullAge = ageSarah >= 18;
 
+console.log(now - 1989 > now - 2019);*/
+
+//15.Operator Precedence
+const now = 2022;
+const ageJonas = now - 1989;
+const ageSarah = now - 2019;
+
 console.log(now - 1989 > now - 2019);
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
