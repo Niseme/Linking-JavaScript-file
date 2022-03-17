@@ -1,6 +1,6 @@
 // JS Fundamentals - Part1
-//Coding Chalange #1
-let markMass1 = 78;
+//Coding Challange #1
+/*let markMass1 = 78;
 let markHeight1 = 1.69;
 let johnMass1 = 92;
 let johnHeight1 = 1.95;
@@ -25,4 +25,22 @@ console.log('Mark BMI 2', markBMI2, 'John BMI 2', johnBMI2);
 
 let markHigherBMI2 = markBMI2 > johnBMI2;
 console.log(markHigherBMI2);
+*/
 
+//Coding Challange  #2
+
+let markMass = 78;
+let markHeight = 1.69;
+let johnMass = 92;
+let johnHeight = 1.95;
+
+let markBMI = markMass / (markHeight ** 2);
+let johnBMI = johnMass / (johnHeight ** 2);
+
+if (markBMI > johnBMI) {
+    console.log(`Mark BMI ${markBMI} is higher than John BMI ${johnBMI} `);
+} else {
+    console.log(`John BMI ${johnBMI} is higher than Mark BMI ${markBMI
+        } `);
+
+}
