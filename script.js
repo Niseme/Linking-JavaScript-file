@@ -1,3 +1,4 @@
+// 10. Values and Variables
 /*let js = 'amazing';
 //if (js === 'amazing') alert('JS is fun');
 console.log(40 + 6 + 9);
@@ -5,7 +6,8 @@ console.log(40 + 6 + 9);
 let firstName = 'Jonas';
 console.log(firstName)*/
 
-let javascriptisfun = true;
+//12. Data types
+/*let javascriptisfun = true;
 console.log(javascriptisfun);
 
 console.log(typeof true);
@@ -24,4 +26,55 @@ year = 1991;
 console.log(year);
 console.log(typeof year);
 
-console.log(typeof null);
+console.log(typeof null);*/
+
+/*//13.let, const and var
+//mutable variable
+let age = 30;
+age = 31;
+
+//immutable variable
+const birthYear = 1989;
+//birthYear = 1990;
+
+//const job; //cannot be like that with const, can with let
+//const - kai nesikeicia, let - kai keiciasi, var - senasis metodas
+
+var job = 'programer';
+job = 'teacher'
+console.log(job);
+
+lastName = 'Sem'; //creates in glogal scope, don't do that
+console.log(lastName);*/
+
+//14.Basic Operators
+
+//Math operators
+const now = 2022;
+const ageJonas = now - 1989;
+const ageSarah = now - 2019;
+console.log(ageJonas, ageSarah);
+
+//2 ** 3 means 2 ^ 3
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+
+const firstName = 'Jonas'
+const lastName = 'Schmedtmann'
+console.log(firstName + ' ' + lastName);
+
+//Assignment operators 
+let x = 10 + 5;
+x += 10; //x = x + 10
+x *= 4;
+x++; //x = x + 1
+x--;
+console.log(x);
+
+//Comparison operators
+
+console.log(ageJonas > ageSarah); // > , < , >=, <=
+console.log(ageJonas >= 33);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1989 > now - 2019);
