@@ -94,7 +94,7 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);*/
 
-//17.Strings and Template Literals
+/*//17.Strings and Template Literals
 
 const firstName = 'Jonas';
 const job = 'teacher';
@@ -110,4 +110,25 @@ console.log(jonasNew);
 console.log('String \n\ multiple \n\ lines');
 console.log(`String 
 multiple
- lines`);
+ lines`);*/
+
+/*//18.Taking Decisions: if / else Statements
+
+const age = 15;
+
+if (age >= 18) {
+    console.log(`Sarah can drive🚗`);
+} else {
+    const yearsLeft = 18 - age
+    console.log(`Sarah cannot drive 🚗, she has to wait for ${yearsLeft} years`);
+}
+
+const birthYear = 2020;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);*/
