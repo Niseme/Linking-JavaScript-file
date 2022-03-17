@@ -62,7 +62,7 @@ const firstName = 'Jonas'
 const lastName = 'Schmedtmann'
 console.log(firstName + ' ' + lastName);
 
-//Assignment operators 
+//Assignment operators
 let x = 10 + 5;
 x += 10; //x = x + 10
 x *= 4;
@@ -108,7 +108,7 @@ const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 console.log(jonasNew);
 
 console.log('String \n\ multiple \n\ lines');
-console.log(`String 
+console.log(`String
 multiple
  lines`);*/
 
@@ -132,3 +132,22 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);*/
+
+/*//20. Type Conversion and Coercion
+
+//type conversion
+const inputYear = '1991'
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+console.log(String(23));
+
+//type coercion
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 7);
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);*/
