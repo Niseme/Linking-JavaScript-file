@@ -225,3 +225,38 @@ if (hasDrivingLicense && hasGoodVision && !isTired) {
     console.log('Someone else should drive!');
 }*/
 
+//26.The Switch Statement
+
+const day = 'thursday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('prepare theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('write code examples');
+//         break;
+//     case 'friday':
+//         console.log('record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('enjoy the weekend');
+//         break;
+//     default:
+//         console.log('not a valid day');
+// }
+
+
+if (day === 'monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('write code examples');
+
+}
