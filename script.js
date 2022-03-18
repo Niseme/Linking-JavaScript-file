@@ -225,7 +225,7 @@ if (hasDrivingLicense && hasGoodVision && !isTired) {
     console.log('Someone else should drive!');
 }*/
 
-//26.The Switch Statement
+/*//26.The Switch Statement
 
 const day = 'thursday';
 
@@ -259,4 +259,14 @@ if (day === 'monday') {
 } else if (day === 'wednesday' || day === 'thursday') {
     console.log('write code examples');
 
-}
+}*/
+
+//28.The Conditional (Ternary) Operator
+
+const age = 23;
+age >= 18 ? console.log(`I like to drink wine`) : console.log(`I like to drink water`);
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
