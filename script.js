@@ -152,7 +152,7 @@ let n = '1' + 1;
 n = n - 1;
 console.log(n);*/
 
-//21.Truthy and Falsy Values
+/*//21.Truthy and Falsy Values
 
 //5 falsy values: 0, '', undefined, null, NaN
 
@@ -174,4 +174,26 @@ if (height) {
     console.log("height is defined");
 } else {
     console.log("height is undefined");
+}*/
+
+//22.Equality Operators: == vs. ===
+const age = 18;
+if (age === 18) console.log("you are 18 years old"); //strict
+
+if (age == 18) console.log("you are 18 years old");//loose
+
+
+const favorite = prompt("what is your favorite number?")
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite == 27) { console.log("27 is a cool number"); }
+
+const fav = Number(prompt("what is your favorite number?"))
+if (fav === 27) {
+    console.log("27 is a cool number");
+} else if (fav === 7) {
+    console.log("7 is a cool number");
+} else if (fav === 8) {
+    console.log("8 is a cool number");
 }
