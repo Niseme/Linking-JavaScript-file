@@ -199,7 +199,7 @@ if (fav === 27) {
 }*/
 
 //23.Boolean Logic
-//24.Logical Operators
+/*//24.Logical Operators
 const hasDrivingLicense = true;
 const hasGoodVision = true;
 
@@ -223,5 +223,5 @@ if (hasDrivingLicense && hasGoodVision && !isTired) {
     console.log('Sarah is able to drive');
 } else {
     console.log('Someone else should drive!');
-}
+}*/
 
